@@ -1,0 +1,4 @@
+R5T.D0025.Default - A default implementations library for the IOSPlatformSwitch service. Sync and async, with OSPlatform provided as an input parameter.
+
+Goals
+
