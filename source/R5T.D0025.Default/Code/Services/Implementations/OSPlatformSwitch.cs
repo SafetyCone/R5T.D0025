@@ -2,11 +2,14 @@ using System;
 using System.Runtime.InteropServices;
 using System.Threading.Tasks;
 
-using D0024Utilities = R5T.D0024.Utilities;using R5T.T0064;
+using R5T.T0064;
+
+using D0024Utilities = R5T.D0024.Utilities;
 
 
 namespace R5T.D0025.Default
-{[ServiceImplementationMarker]
+{
+    [ServiceImplementationMarker]
     public class OSPlatformSwitch : IOSPlatformSwitch,IServiceImplementation
     {
         public void Switch(OSPlatform oSPlatform, Action windowsAction, Action osxAction, Action linuxAction)
